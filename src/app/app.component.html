@@ -1,0 +1,11 @@
+<hello name="{{ name }}"></hello>
+
+<p>
+  Toggle order:
+    <i (click)="toggle()"
+      [ngClass]="(data === 1)
+        ? 'fa-sort-amount-down-alt'
+        : 'fa-sort-amount-up-alt'" 
+      class="fas">
+    </i>
+</p>
